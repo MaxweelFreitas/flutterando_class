@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
 import '../constants/colors.dart';
-import 'aldo_theme.dart';
+import 'flutterando_theme.dart';
 
 class ThemeApp {
   ThemeData theme() {
     return ThemeData(
       canvasColor: Colors.transparent,
-      primaryColor: const Color(0xffFFFFFF),
-      accentColor: const Color(0xffE7343F),
+      primaryColor: AppColors.primary,
+      accentColor: AppColors.accent,
       backgroundColor: AppColors.primary,
       scaffoldBackgroundColor: AppColors.primary,
-      textTheme: AldoTheme().call(),
+      textTheme: FlutterandoTheme().call(),
       textSelectionTheme: TextSelectionThemeData(
         cursorColor: AppColors.accent,
         selectionColor: AppColors.accent.withOpacity(.1),

@@ -68,9 +68,8 @@ flutter:
   fonts:
     - family: Milliard
       fonts:
-        - asset: assets/fonts/milliard/Milliard-Thin.ttf
-        - asset: assets/fonts/milliard/Milliard-Book.ttf
         - asset: assets/fonts/milliard/Milliard-Medium.ttf
+          weight: 500
         - asset: assets/fonts/milliard/Milliard-SemiBold.ttf
           weight: 600
         - asset: assets/fonts/milliard/Milliard-Bold.ttf

@@ -31,12 +31,12 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
                 padding: EdgeInsets.all(10),
                 child: Text('$counter'),
               ),
-              SvgPicture.asset(
-                AppImages.arrowLeftSvg,
-                height: 100,
-                width: 100,
-                color: Colors.redAccent,
-              ),
+              // SvgPicture.asset(
+              //   AppImages.arrowLeftSvg,
+              //   height: 100,
+              //   width: 100,
+              //   color: Colors.redAccent,
+              // ),
             ],
           );
         },
