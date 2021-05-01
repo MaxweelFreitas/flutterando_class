@@ -21,9 +21,19 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
       body: ScopedBuilder<HomeStore, Exception, int>(
         store: controller,
         onState: (_, counter) {
-          return Padding(
-            padding: EdgeInsets.all(10),
-            child: Text('$counter'),
+          return Column(
+            children: [
+              Padding(
+                padding: EdgeInsets.all(10),
+                child: Text('$counter'),
+              ),
+              // SvgPicture.asset(
+              //   AppImages.arrowLeftSvg,
+              //   height: 100,
+              //   width: 100,
+              //   color: Colors.redAccent,
+              // ),
+            ],
           );
         },
         onError: (context, error) => Center(
