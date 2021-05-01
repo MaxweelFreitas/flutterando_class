@@ -33,15 +33,16 @@ flutter:
 
   assets:
     - assets/img/books/
+    - assets/img/fotos/
     - assets/img/icons/
     - assets/img/logo/
   
   fonts:
     - family: Milliard
       fonts:
-        - asset: assets/fonts/milliard/Milliard-Medium.ttf
+        - asset: assets/fonts/milliard/Milliard-Medium.otf
           weight: 500
-        - asset: assets/fonts/milliard/Milliard-SemiBold.ttf
+        - asset: assets/fonts/milliard/Milliard-SemiBold.otf
           weight: 600
-        - asset: assets/fonts/milliard/Milliard-Bold.ttf
+        - asset: assets/fonts/milliard/Milliard-Bold.otf
           weight: 700
