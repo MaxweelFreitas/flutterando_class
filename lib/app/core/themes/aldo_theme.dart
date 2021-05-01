@@ -10,7 +10,7 @@ class AldoTheme {
         fontFamily: 'Raleway',
         fontSize: 20,
         fontWeight: FontWeight.w700,
-        color: AppColors.mainText,
+        // color: AppColors.mainText,
       ),
       //HeadLine 2
       headline2: TextStyle(
@@ -22,7 +22,7 @@ class AldoTheme {
       headline3: TextStyle(
         fontFamily: 'Raleway',
         fontSize: 16,
-        color: AppColors.mainText,
+        // color: AppColors.mainText,
         fontWeight: FontWeight.w400,
       ),
       //HeadLine 4

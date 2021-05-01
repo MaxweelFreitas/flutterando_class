@@ -18,7 +18,7 @@ class ThemeApp {
         selectionHandleColor: AppColors.accent,
       ),
       buttonTheme: ButtonThemeData(
-        disabledColor: AppColors.unselectedButton,
+        // disabledColor: AppColors.unselectedButton,
         buttonColor: AppColors.accent,
       ),
       iconTheme: IconThemeData(
@@ -29,7 +29,7 @@ class ThemeApp {
           color: AppColors.accent,
         ),
         unselectedIconTheme: IconThemeData(
-          color: AppColors.unselectedIcon,
+          // color: AppColors.unselectedIcon,
         ),
         type: BottomNavigationBarType.fixed,
       ),
