@@ -16,16 +16,16 @@ class AppImages {
   //--------------------------------------------------------------------//
   //------------------------------Images Svg----------------------------//
   //--------------------------------------------------------------------//
-  static const String arrowDown = 'assets/img/svgs/arrowDown.svg';
-  static const String arrowLeft = 'assets/img/svgs/arrowLeft.svg';
-  static const String arrowRight = 'assets/img/svgs/arrowRight.svg';
-  static const String arrowUp = 'assets/img/svgs/arrowUp.svg';
-  static const String card = 'assets/img/svgs/card.svg';
-  static const String circle = 'assets/img/svgs/circle.svg';
-  static const String classes = 'assets/img/svgs/classes.svg';
-  static const String flagBr = 'assets/img/svgs/flagBr.svg';
-  static const String rescue = 'assets/img/svgs/rescue.svg';
-  static const String stop = 'assets/img/svgs/stop.svg';
-  static const String trails = 'assets/img/svgs/trails.svg';
-  static const String user = 'assets/img/svgs/user.svg';
+  static const String arrowDownSvg = 'assets/img/svgs/arrowDown.svg';
+  static const String arrowLeftSvg = 'assets/img/svgs/arrowLeft.svg';
+  static const String arrowRightSvg = 'assets/img/svgs/arrowRight.svg';
+  static const String arrowUpSvg = 'assets/img/svgs/arrowUp.svg';
+  static const String cardSvg = 'assets/img/svgs/card.svg';
+  static const String circleSvg = 'assets/img/svgs/circle.svg';
+  static const String classesSvg = 'assets/img/svgs/classes.svg';
+  static const String flagBrSvg = 'assets/img/svgs/flagBr.svg';
+  static const String rescueSvg = 'assets/img/svgs/rescue.svg';
+  static const String stopSvg = 'assets/img/svgs/stop.svg';
+  static const String trailsSvg = 'assets/img/svgs/trails.svg';
+  static const String userSvg = 'assets/img/svgs/user.svg';
 }

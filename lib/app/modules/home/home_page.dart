@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_triple/flutter_triple.dart';
+import 'package:flutterando_class/app/core/constants/images.dart';
+
 import 'home_store.dart';
 
 class HomePage extends StatefulWidget {
   final String title;
+
   const HomePage({Key? key, this.title = "Home"}) : super(key: key);
 
   @override
