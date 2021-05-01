@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_triple/flutter_triple.dart';
-import 'package:flutterando_class/app/core/constants/images.dart';
 
 import 'home_store.dart';
 
@@ -31,12 +29,6 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
                 padding: EdgeInsets.all(10),
                 child: Text('$counter'),
               ),
-              // SvgPicture.asset(
-              //   AppImages.arrowLeftSvg,
-              //   height: 100,
-              //   width: 100,
-              //   color: Colors.redAccent,
-              // ),
             ],
           );
         },
@@ -49,7 +41,7 @@ class _HomePageState extends ModularState<HomePage, HomeStore> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          store.increment();
+          controller.increment();
         },
         child: Icon(Icons.add),
       ),
